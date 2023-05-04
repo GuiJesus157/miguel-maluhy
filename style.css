@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#pic {
+    background-color: black;
+
+}
+
+#pic ul li {
+    display: inline;
+
+}
+
+#pic ul li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+#pic ul li:hover {
+    background-color: blue;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+h1:hover {
+    color: red;
+}
+
+
+#pic {
+    max-width: 800px;
+    padding: 0;
+
+}
